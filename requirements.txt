@@ -1,0 +1,6 @@
+fastapi 
+uvicorn[standard]
+ctransformers
+transformers
+torch
+sentencepiece
