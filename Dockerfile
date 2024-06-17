@@ -2,7 +2,7 @@
 FROM python:3.9
 
 # WORKDIR - sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile.
-WORKDIR /service
+WORKDIR /app
 
 # Copy the requirements file to the container
 COPY requirements.txt .
